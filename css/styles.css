@@ -31,7 +31,7 @@ input, textarea, select {
 
 h2, h3, h4, h5 {
   padding: 0;
-  font-size: 1.3em; }
+  font-size: .8em; }
 
 .invisibilita {
   display: none; }
@@ -51,15 +51,14 @@ h2, h3, h4, h5 {
   display: inline-block;
   border-radius: 3px;
   margin: 10px auto;
-  -webkit-transition: .6s;
-  -o-transition: .6s;
-  transition: .6s;
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
   padding: 8px 8px 10px;
   background-color: #ddd; }
   .pics a {
     display: block;
-    color: #333;
-    font-size: .8em; }
+    color: #333; }
   .pics img {
     border-radius: 3px;
     -webkit-transition: .3s;
@@ -71,8 +70,7 @@ h2, h3, h4, h5 {
   .pics:hover {
     -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
-    background-color: #333;
-    padding: 6px 6px 10px; }
+    background-color: #333; }
     .pics:hover a {
       color: #09f; }
   .pics .txt {
@@ -91,7 +89,7 @@ h2, h3, h4, h5 {
     display: inline-block;
     overflow: hidden;
     text-align: center;
-    magin: 20px auto;
+    margin: 20px auto;
     background-color: #09f;
     color: #fff;
     height: 40px;
