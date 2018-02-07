@@ -81,6 +81,8 @@ h2, h3, h4, h5 {
     padding: 10px; }
     .pics .outdoor span {
       line-height: 24px; }
+      .pics .outdoor span span {
+        color: #32B8B8; }
     .pics .outdoor strong {
       color: #00AFEC; }
   .pics:hover {
