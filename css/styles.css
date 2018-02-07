@@ -81,3 +81,25 @@ h2, h3, h4, h5 {
       text-align: left;
       font-weight: bold;
       text-transform: uppercase; }
+
+.top {
+  padding-bottom: 20px;
+  text-align: center;
+  overflow: hidden;
+  display: block; }
+  .top a {
+    display: inline-block;
+    overflow: hidden;
+    text-align: center;
+    magin: 20px auto;
+    background-color: #09f;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    width: 100px;
+    padding: 0 10px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
+    box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6); }
+    .top a:hover {
+      background-color: #06f; }
