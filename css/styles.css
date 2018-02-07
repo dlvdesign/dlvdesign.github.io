@@ -28,7 +28,7 @@ input, textarea, select {
 
 h2, h3, h4, h5 {
   padding: 0;
-  font-size: .8em; }
+  font-size: .9em; }
 
 .invisibilita {
   display: none; }
@@ -51,8 +51,9 @@ h2, h3, h4, h5 {
   -webkit-transition: .3s;
   -o-transition: .3s;
   transition: .3s;
-  padding: 8px 8px 10px;
-  background-color: #ddd; }
+  padding: 8px 8px 8px;
+  background-color: #ddd;
+  position: relative; }
   .pics a {
     display: block;
     color: #333; }
@@ -64,10 +65,34 @@ h2, h3, h4, h5 {
     width: 100%;
     -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6); }
+  .pics .indoor {
+    display: block; }
+  .pics .outdoor {
+    -webkit-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    display: block;
+    text-align: left;
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    padding: 10px; }
+    .pics .outdoor span {
+      line-height: 24px; }
+    .pics .outdoor strong {
+      color: #00AFEC; }
   .pics:hover {
     -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     background-color: #333; }
+    .pics:hover .indoor {
+      display: block; }
+    .pics:hover .outdoor {
+      top: 0;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.8); }
     .pics:hover a {
       color: #09f; }
   .pics .txt {
@@ -76,6 +101,8 @@ h2, h3, h4, h5 {
       text-align: left;
       font-weight: bold;
       text-transform: uppercase; }
+      .pics .txt h2 a {
+        line-height: 40px; }
 
 .top {
   padding-bottom: 20px;
