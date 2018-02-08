@@ -100,7 +100,8 @@ h2, h3, h4, h5 {
   -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
   box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
   border-radius: 100%;
-  height: 100px;
+  height: 120px;
+  width: 120px;
   display: inline-block; }
 
 .pics {
@@ -223,7 +224,8 @@ h2, h3, h4, h5 {
     -webkit-box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     box-shadow: 0 4px 10px -4px rgba(0, 0, 0, 0.6);
     border-radius: 100%;
-    height: 140px;
+    width: 200px;
+    height: 200px;
     margin: 0 auto 10px;
     display: block; }
 
@@ -298,10 +300,10 @@ h2, h3, h4, h5 {
     padding: 0 0 20px;
     margin: 0 auto; }
   .brand {
-    width: 80%;
-    height: 80%;
+    width: 220px;
+    height: 220px;
     text-align: center;
-    max-height: 200px;
+    max-height: 220px;
     display: block;
     margin: 0 auto; }
   .menu {
@@ -309,4 +311,11 @@ h2, h3, h4, h5 {
     .menu li {
       display: block; }
   .social {
-    display: block; } }
+    display: block; }
+  .kinds li {
+    display: block; }
+    .kinds li span {
+      display: block;
+      width: 100%; }
+      .kinds li span img, .kinds li span strong {
+        display: inline-block; } }
