@@ -177,19 +177,21 @@ h2, h3, h4, h5
       span
         color: #32B8B8
     .vmas
-      padding: 20px 0
-      display: inline-block
+      overflow: hidden
+      margin: 8px 0
+      display: block
       text-align: center
+      //background-color: red
+      padding: 6px 0
       span
         //text-align: right
-        //display: inline-block
-        width: 60px
+        display: inline-block
+        width: 120px
         font-size: 1.1em
         padding: 6px
         border-radius: 4px
-        margin: 0 auto
+        margin: 2px
         border: 1px solid #32B8B8
-        //background-color: red
         background-color: rgba(0,0,0,.6)
       &:hover
         span
@@ -240,7 +242,16 @@ h2, h3, h4, h5
     box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
     &:hover
       background-color: #06f
-
+.profile
+  padding-top: 20px
+  width: 100%
+  display: block
+  a
+    margin: 10px auto
+  h2
+    font-size: 1.3em
+  h3
+    color: #999
 @media (min-width: 280px) and (max-width: 720px) and (orientation: portrait)
   .header
     display: block
