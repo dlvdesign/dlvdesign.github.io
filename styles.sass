@@ -31,6 +31,7 @@ $add003: #E1A028
 $add004: #F74E68
 $add005: $pantonegold
 $bluejet: #557ECF
+$wht: #fff
 
 //#01BAF4
 *
@@ -84,21 +85,17 @@ h2, h3, h4, h5
   width: 10%
   display: inline-block
   text-align: right
-  //line-height: 90px
   a,h1
     display: inline-block
 .menu-block
   vertical-align: middle
-  //background-color: red
   width: 78%
   text-align: center
   display: inline-block
-
 .menu
   display: inline-block
   li
     display: inline-block
-    //background-color: #333
     margin: 10px
     a
       font-family: 'Oxygen',sans-serif
@@ -111,7 +108,6 @@ h2, h3, h4, h5
       &:hover
         color: #999
         border-bottom: 2px solid #999
-      //background-color: red
 .social
   display: inline-block
   font-size: 1.4em
@@ -129,7 +125,6 @@ h2, h3, h4, h5
     display: inline-block
     &:hover
       color: #999
-
 .brand
   box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
   border-radius: 100%
@@ -146,8 +141,6 @@ h2, h3, h4, h5
   transition: .3s
   padding: 8px 8px 8px
   background-color: #ddd
-  //height: 100%
-  //min-height: 280px
   position: relative
   .pins
     display: block
@@ -156,15 +149,12 @@ h2, h3, h4, h5
     border-radius: 3px
     transition: .3s
     width: 100%
-    //display: block
     box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
   .indoor
-    //transition: .3s
     display: block
   .outdoor
     transition: .4s
     display: block
-    //width: 90%
     text-align: left
     position: absolute
     top: 100%
@@ -252,6 +242,58 @@ h2, h3, h4, h5
     font-size: 1.3em
   h3
     color: #999
+  .userpic
+    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+    border-radius: 100%
+    height: 140px
+    margin: 0 auto 10px
+    display: block
+.cv
+  padding: 10px
+  display: block
+  h2
+    font-size: 1.5em
+    text-transform: uppercase
+    padding: 10px 0 16px
+.bio
+  display: block
+  p
+    transition: .3s
+    color: #888
+  &:hover
+    p
+      color: #444
+.kinds
+  padding: 10px
+  margin: 20px auto
+  background-image: url(../images/cv/soft.png)
+  background-repeat: no-repeat
+  background-position: 100% 100%
+  transition: .8s
+  &:hover
+    background-position: center center
+    ul,h2
+      background-color: rgba($wht, 0.7)
+  li
+    margin: 10px
+    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+    display: inline-block
+  span
+    vertical-align: middle
+    width: 90px
+    overflow: hidden
+    text-align: center
+    background-color: rgba($bluejet, 0.8)
+    border-radius: 4px
+    display: block
+    padding: 6px 8px
+    strong
+      display: block
+      height: 48px
+      line-height: 24px
+  img
+    display: inline-block
+    width: 40px
 @media (min-width: 280px) and (max-width: 720px) and (orientation: portrait)
   .header
     display: block
@@ -267,7 +309,6 @@ h2, h3, h4, h5
     width: 100%
     h1,a
     display: block
-    //background-color: red
     width: 100%
     padding: 0 0 20px
     margin: 0 auto
@@ -275,7 +316,6 @@ h2, h3, h4, h5
     width: 80%
     height: 80%
     text-align: center
-    width: 100%
     max-height: 200px
     display: block
     margin: 0 auto
