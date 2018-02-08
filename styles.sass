@@ -32,6 +32,7 @@ $add004: #F74E68
 $add005: $pantonegold
 $bluejet: #557ECF
 $wht: #fff
+$aqgreen: #32B8B8
 
 //#01BAF4
 *
@@ -82,11 +83,18 @@ h2, h3, h4, h5
   vertical-align: middle
 .head
   vertical-align: middle
-  width: 10%
+  width: 18%
   display: inline-block
   text-align: right
-  a,h1
+  h1
     display: inline-block
+    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+    overflow: hidden
+    border-radius: 120px
+    a
+      border-radius: 120px
+      display: block
+      overflow: hidden
 .menu-block
   vertical-align: middle
   width: 78%
@@ -103,11 +111,14 @@ h2, h3, h4, h5
       font-weight: bold
       text-transform: lowercase
       color: #000
-      border-bottom: 2px solid $pantonelg
+      border-bottom: 3px solid $pantonelg
       transition: .3s
       &:hover
         color: #999
-        border-bottom: 2px solid #999
+        border-bottom: 3px solid #999
+    .active,.active:hover
+      color: $aqgreen
+      border-bottom: 3px solid $aqgreen
 .social
   display: inline-block
   font-size: 1.4em
@@ -126,12 +137,13 @@ h2, h3, h4, h5
     &:hover
       color: #999
 .brand
-  box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
-  border-radius: 100%
+  //border-radius: 120px
   height: 120px
   width: 120px
   display: inline-block
   //margin: 16px auto
+  padding: 0
+  //background-color: red
 .pics
   overflow: hidden
   width: 90%
@@ -166,7 +178,7 @@ h2, h3, h4, h5
     span
       line-height: 24px
       span
-        color: #32B8B8
+        color: $aqgreen
     .vmas
       overflow: hidden
       margin: 8px 0
@@ -179,10 +191,10 @@ h2, h3, h4, h5
         display: inline-block
         width: 120px
         font-size: 1.1em
-        padding: 6px
+        padding: 4px
         border-radius: 4px
         margin: 2px
-        border: 1px solid #32B8B8
+        border: 1px solid $aqgreen
         background-color: rgba(0,0,0,.6)
       &:hover
         span
@@ -192,6 +204,7 @@ h2, h3, h4, h5
       color: #00AFEC
   .txt
     padding: 10px
+    font-size: .9em
     h2
       text-align: left
       font-weight: bold
@@ -208,7 +221,6 @@ h2, h3, h4, h5
       top: 0
       color: #fff
       background-color: rgba(0,0,0, 0.8)
-
     .txt
       h2
         span
@@ -237,19 +249,24 @@ h2, h3, h4, h5
   padding-top: 20px
   width: 100%
   display: block
-  a
+  a.usr
     margin: 10px auto
+    border-radius: 100px
+    overflow: hidden
+    display: inline-block
+    padding: 0
+    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
   h2
     font-size: 1.3em
   h3
     color: #999
   .userpic
-    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
-    border-radius: 100%
+    border-radius: 100px
     width: 200px
     height: 200px
-    margin: 0 auto 10px
+    margin: 0 auto 0
     display: block
+    overflow: hidden
 .cv
   padding: 10px
   display: block
