@@ -1,4 +1,4 @@
-// COLOR
+// color
 $pantone367u: #85c876
 $pantone563u: #6cbaa7
 $pantone522c: #ba92c3
@@ -15,49 +15,53 @@ $pantonelg: #f0f0f0
 $pantonemetal: #282a2b
 $pantonegold: #e2a32e
 $bl: #000
-$txtboton: #1B9BB9
-$bgmain: #F4A920
-$top501: #E0A731
-$top500: #209BA5
-$nunet: #B93F40
-$olnet: #282A2B
-$bannerll: #BD5125
+$txtboton: #1b9bb9
+$bgmain: #f4a920
+$top501: #e0a731
+$top500: #209ba5
+$nunet: #b93f40
+$olnet: #282a2b
+$bannerll: #bd5125
 $otherb: #47a2d2
 $otherg: #666666
-$bggen: #A2DED0
-$add001: #EF4036
-$add002: #5B7F95
-$add003: #E1A028
-$add004: #F74E68
+$bggen: #a2ded0
+$add001: #ef4036
+$add002: #5b7f95
+$add003: #e1a028
+$add004: #f74e68
 $add005: $pantonegold
-$bluejet: #557ECF
+$bluejet: #557ecf
 $wht: #fff
-$aqgreen: #32B8B8
+$aqgreen: #32b8b8
 
-//#01BAF4
+//#01baf4
 *
   //box-sizing: border-box
   margin: 0
   padding: 0
-  font-family: Arial,"Helvetica Neue",Helvetica,Arial,sans-serif
+
+  text-align: center
+
+  border: 0
+  outline: 0 none
+
+  font-family: 'oxygen',arial,"helvetica neue",helvetica,arial,sans-serif
   //line-height: 30px
   font-size: 1em
   font-weight: normal
-  border: 0
-  outline: 0 none
-  text-align: center
 
 body
-  background-color: $pantonelg
   //max-width: 1000px
   margin: 0 auto
+
+  background-color: $pantonelg
 
 ul, li
   list-style-type: none
 a
+  text-decoration: none
 
   line-height: 0
-  text-decoration: none
 
 span, a
   font-family: inherit
@@ -67,52 +71,71 @@ input, textarea, select
 
 h2, h3, h4, h5
   padding: 0
+
   font-size: .9em
 
 .invisibilita
   display: none
+
+.container-in
+  max-width: 90%
+  margin: 0 auto
+  //background-color: red
 .header
-  height: auto
   display: inline-block
-  text-align: center
-  width: 100%
-  padding: 10px 0
-  margin: 20px auto
   overflow: hidden
+
+  width: 100%
+  height: auto
+  margin: 20px auto
+  padding: 10px 0
+
+  text-align: center
+  vertical-align: middle
+
   border-bottom: 1px solid #ddd
-  vertical-align: middle
 .head
-  vertical-align: middle
-  width: 18%
   display: inline-block
+
+  width: 18%
+
   text-align: right
+  vertical-align: middle
   h1
-    display: inline-block
-    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
-    overflow: hidden
     border-radius: 120px
+    display: inline-block
+    //overflow: hidden
+
+    overflow: hidden
     a
-      border-radius: 120px
       display: block
       overflow: hidden
+      img
+        box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+        border-radius: 120px
 .menu-block
-  vertical-align: middle
-  width: 78%
-  text-align: center
   display: inline-block
+
+  width: 78%
+
+  text-align: center
+  vertical-align: middle
 .menu
   display: inline-block
   li
     display: inline-block
+
     margin: 10px
     a
-      font-family: 'Oxygen',sans-serif
-      font-size: 22px
-      font-weight: bold
+      transition: .3s
       text-transform: lowercase
+
       color: #000
       border-bottom: 3px solid $pantonelg
-      transition: .3s
+
+      font-family: 'oxygen',sans-serif
+      font-size: 22px
+      font-weight: bold
       &:hover
         color: #999
         border-bottom: 3px solid #999
@@ -121,104 +144,118 @@ h2, h3, h4, h5
       border-bottom: 3px solid $aqgreen
 .social
   display: inline-block
-  font-size: 1.4em
   padding: 0 40px
+  font-size: 1.4em
   a
-    color: #000
-    transition: .3s
-    padding: 8px
-    height: 40px
-    line-height: 40px
-    margin: 0 4px
+    display: inline-block
     overflow: hidden
+    height: 40px
+    margin: 0 4px
+    padding: 8px
+    transition: .3s
     text-align: center
     vertical-align: middle
-    display: inline-block
+    color: #000
+    line-height: 40px
     &:hover
       color: #999
 .brand
-  //border-radius: 120px
-  height: 120px
-  width: 120px
   display: inline-block
-  //margin: 16px auto
+  width: 120px
+  height: 120px
   padding: 0
-  //background-color: red
 .pics
+  position: relative
+  display: inline-block
   overflow: hidden
   width: 90%
   max-width: 300px
-  display: inline-block
-  border-radius: 3px
   margin: 10px auto
-  transition: .3s
   padding: 8px 8px 8px
+
+  transition: .3s
+
+  border-radius: 3px
   background-color: #ddd
-  position: relative
   .pins
     display: block
+
     color: #333
   img
-    border-radius: 3px
-    transition: .3s
     width: 100%
+
+    transition: .3s
+
+    border-radius: 3px
     box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
   .indoor
     display: block
   .outdoor
-    transition: .4s
-    display: block
-    text-align: left
     position: absolute
     top: 100%
     right: 0
-    left: 0
     bottom: 0
+    left: 0
+
+    display: block
+
     padding: 10px
+
+    transition: .4s
+    text-align: left
+
+    font-family: 'open sans',arial,helvetica,sans-serif
     span
       line-height: 24px
       span
         color: $aqgreen
     .vmas
-      overflow: hidden
-      margin: 8px 0
       display: block
-      text-align: center
+      overflow: hidden
+
+      margin: 8px 0
       //background-color: red
       padding: 6px 0
+
+      text-align: center
       span
         //text-align: right
         display: inline-block
+
         width: 120px
-        font-size: 1.1em
-        padding: 4px
-        border-radius: 4px
         margin: 2px
+        padding: 4px
+
         border: 1px solid $aqgreen
+        border-radius: 4px
         background-color: rgba(0,0,0,.6)
-      &:hover
-        span
-          border: 1px solid #fff
+
+        font-size: 1.1em
+        &:hover
           color: #fff
+          border: 1px solid #fff
     strong
-      color: #00AFEC
+      color: #00afec
   .txt
     padding: 10px
+
     font-size: .9em
     h2
       text-align: left
-      font-weight: bold
-      text-transform: uppercase
       text-align: center
+      text-transform: uppercase
+
+      font-weight: bold
       span
         line-height: 40px
   &:hover
-    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
     background-color: #333
+    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
     .indoor
       display: block
     .outdoor
       top: 0
+
       color: #fff
       background-color: rgba(0,0,0, 0.8)
     .txt
@@ -226,131 +263,183 @@ h2, h3, h4, h5
         span
           color: #09f
 .top
-  padding-bottom: 20px
-  text-align: center
-  overflow: hidden
   display: block
+  overflow: hidden
+
+  padding-bottom: 20px
+
+  text-align: center
   a
     display: inline-block
     overflow: hidden
-    text-align: center
-    margin: 20px auto
-    background-color: #09f
-    color: #fff
-    height: 40px
-    line-height: 40px
+
     width: 100px
+    height: 40px
+    margin: 20px auto
     padding: 0 10px
+
+    text-align: center
+
+    color: #fff
     border-radius: 4px
+    background-color: #09f
     box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+
+    line-height: 40px
     &:hover
       background-color: #06f
 .profile
-  padding-top: 20px
-  width: 100%
   display: block
+
+  width: 100%
+  padding-top: 20px
   a.usr
-    margin: 10px auto
-    border-radius: 100px
-    overflow: hidden
     display: inline-block
+    overflow: hidden
+
+    margin: 10px auto
     padding: 0
+
+    border-radius: 100px
     box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
   h2
     font-size: 1.3em
   h3
     color: #999
   .userpic
-    border-radius: 100px
+    display: block
+    overflow: hidden
+
     width: 200px
     height: 200px
     margin: 0 auto 0
-    display: block
-    overflow: hidden
+
+    border-radius: 100px
 .cv
-  padding: 10px
   display: block
+
+  padding: 10px
   h2
-    font-size: 1.5em
-    text-transform: uppercase
     padding: 10px 0 16px
+
+    text-transform: uppercase
+
+    font-size: 1.5em
 .bio
   display: block
+  max-width: 960px
+  padding: 10px 0
+  margin: 0 auto
+  //min-width: 280px
   p
+    vertical-align: top
+    text-align: left
     transition: .3s
+    width: 48%
+    padding: 1% 6px
+    margin: 0 auto
+    display: inline-block
+    min-width: 260px
     color: #888
+    font-family: 'open sans',arial,helvetica,sans-serif
   &:hover
     p
       color: #444
-.kinds
-  padding: 10px
+.apts
   margin: 20px auto
-  background-image: url(../images/cv/soft.png)
-  background-repeat: no-repeat
-  background-position: 100% 100%
-  transition: .8s
-  &:hover
-    background-position: center center
-    ul,h2
-      background-color: rgba($wht, 0.7)
-  li
-    margin: 10px
-    box-shadow: 0 4px 10px -4px rgba(0,0,0, 0.6)
+  padding: 10px
+  //background-color: #000
+  .apt
+    max-width: 300px
+    vertical-align: top
     display: inline-block
-  span
-    vertical-align: middle
-    width: 90px
-    overflow: hidden
+    margin: 0 auto 10px
+    background-color: #ddd
     text-align: center
-    background-color: rgba($bluejet, 0.8)
-    border-radius: 4px
-    display: block
-    padding: 6px 8px
+    line-height: 30px
+    strong, span
+      display: inline-block
+      padding: 0
+      border-radius: 0
+    i
+      font-size: .8em
     strong
-      display: block
-      height: 48px
-      line-height: 24px
-  img
-    display: inline-block
-    width: 40px
+      width: 170px
+      //background-color: green
+      text-align: left
+      padding: 0 8px 0 4px
+    span
+      //background-color: #eee
+      padding: 0
+      text-align: center
+      width: 110px
+  .desc
+    display: block
+    padding: 20px 0
+    margin: 0 auto
+    line-height: 30px
+    //background-color: $aqgreen
+    width: 100%
 @media (min-width: 280px) and (max-width: 720px) and (orientation: portrait)
   .header
     display: block
-    text-align: center
+
     width: 100%
+
+    text-align: center
   .menu-block
     display: block
-    text-align: center
+
     width: 100%
+
+    text-align: center
   .head
+    display: block
+
+    width: 100%
+
     text-align: center
-    display: block
-    width: 100%
-    h1,a
-    display: block
-    width: 100%
-    padding: 0 0 20px
-    margin: 0 auto
+    h1, a
+      display: block
+
+      width: 100%
+      margin: 0 auto
+      padding: 0 0 20px
   .brand
+    display: block
+
     width: 220px
     height: 220px
-    text-align: center
     max-height: 220px
-    display: block
     margin: 0 auto
+
+    text-align: center
   .menu
     width: 100%
     li
       display: block
   .social
     display: block
-  .kinds
-    li
-      display: block
+  .pics
+    position: relative
+    display: block
+    overflow: hidden
+    width: 100%
+    max-width: 280px
+    margin: 10px auto
+    padding: 8px 8px 8px
+    transition: .3s
+    border-radius: 3px
+    background-color: $aqgreen
+  .apts
+    display: block
+    margin: 0 auto
+    .apt
+      background-color: #ddd
+      strong, span
+        text-align: center
       span
-        display: block
-        width: 100%
-        // /br
-          display: none
-        img,strong
-          display: inline-block
+        transition: .3s
+        padding: 2px 0 16px
+        &:hover
+          color: $aqgreen
