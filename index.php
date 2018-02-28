@@ -4,7 +4,9 @@
 <?php include_once("includes/head.php"); ?>
 <?php include_once("includes/profile.php"); ?>
 <?php include_once("includes/projects.php"); ?>
+<div class="bloque">
 <?php include("includes/social.php"); ?>
+</div>
 	<div class="top">
     <a href="#top">TOP</a>
   </div>

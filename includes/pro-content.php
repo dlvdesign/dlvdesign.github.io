@@ -3,6 +3,13 @@
 	<div class="bio">
 		<h2>Bio</h2>
 		<p>
+			Me llamo Diego, soy dise&ntilde;ador web desde hace alrededor de 8 a&ntilde;os. Nacido en La Rioja, desde peque&ntilde;o es que estudio, vivo y trabajo en Buenos Aires. Me fascina todo lo relacionado al dise&ntilde;o web, maquetado y programaci&oacute;n, asi como el dise&ntilde;o gr&aacute;fico, se puede decir que soy un admirador de los dos mundos. <br />
+			Tengo 6 a&ntilde;os de experiencia como freelance y m&aacute;s trabajado en talleres gr&aacute;ficos y en  empresas completamente diferentes, pasando por diferentes situaciones en las que tuve que resolver adquiriendo nuevos conocimientos y poniendo en p&aacute;ctica los que ya ten&iacute;a, dir&iacute;a adquiriendo el know how de la parte front end, back end, desde el dise&ntilde;o hasta la programaci&oacute;n, publicidad y posicionamiento de sitios web, creaci&oacute;n de piezas gr&aacute;ficas. Me desenvolv&iacute; tambi&eacute;n como trafficker aprovechando y aplicando el background que mencion&eacute; anteriormente, siempre adapt&aacute;ndome al trabajo individual y en grupo seg&uacute;n requiriese. <br />
+			Me considero obsesivo en cuanto a lo que maquetado se refiere, intento encontrar la soluci&oacute;n a cada problema que surge, como curador web trato de mejorar en todos los sentidos de manera individual como grupal, compartiendo mi conocimiento y habilidades, asi como absorbiendo las de los que me rodean, siempre apuntando a progresar. <br />
+			Porqu&eacute; no trabajamos juntos? Continu&aacute; leyendo para ver si soy la persona con las habilidades o el conocimiento que contratar&iacute;as.
+		</p>
+		<?php /* ?>
+		<p>
 			Soy Diego, tratar&eacute; de resumir, para ello muchas cosas estoy seguro se me van a pasar por alto. <br />
 			Para el que no me conoce, me considero principalmente un obsesivo de la maquetaci&oacute;n y los estilos, autocr&iacute;tico empedernido :) ,algo en lo que fu&iacute; transform&aacute;ndome gracias a algunas influencias, docentes, compa&ntilde;eros/as, muchas horas de insomnio y lectura. <br />
 			Comenc&eacute; de forma autodid&aacute;cta, probando, investigando, equivoc&aacute;ndome y volviendo a intentar, que es lo que se hace cuando algo realmente te gusta. <br />
@@ -24,6 +31,7 @@
 			Saludos! <br />
 			Diego.
 		</p>
+		<?php */ ?>
 	</div>
 	<div class="apts">
 		<h2>Aptitudes</h2>
@@ -44,9 +52,10 @@
 		<p class="apt">
 			<strong>PHP</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
 			<strong>HTML</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i></span>	<br />
+			<strong>Jade</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span> <br />
 			<strong>CSS</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span> <br />
 			<strong>Sass</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span> <br />
-			<strong>Jade</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span> <br />
+			<strong>Less</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span> <br />
 			<strong>JS</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span> <br />
 		</p>
 		<p class="apt">
@@ -54,11 +63,17 @@
 			<strong>Sublime Text</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
 			<strong>Notepad++</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span> <br />
 			<strong>Brackets</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span> <br />
+			<strong>Camtasia Studio</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
 		</p>
 		<p class="apt">
-			<strong>Camtasia Studio</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
+			<strong>Trello</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
+			<strong>Jira</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
+			<strong>SCRUM</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
+		</p>
+		<p class="apt">
+			<strong>Trafficker</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
 			<strong>E-planing</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
-			<strong>aws</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
+			<strong>AWS</strong> <span><i class="fas fa-circle"></i> <i class="fas fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i> <i class="far fa-circle"></i></span>	<br />
 		</p>
 	</div>
 </div>
